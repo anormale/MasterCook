@@ -1,0 +1,60 @@
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="cordova.js"></script>
+    <title>MasterCook</title>
+    <script>
+    function search() {
+      location.href = 'search.html';
+    }
+    </script>
+</head>
+<body>
+    <header>
+      <div class="logo"><img src="images/logo.png" max-width="80%" height="50px"></div>
+      <div class="search"><input onClick="search()"  value="Cerca"></div>
+    </header>
+
+    <div class="container">
+      <div class="list-plate">
+        <ul>Antipasti
+          <li>Antipasti</li>
+        </ul>
+        <ul>Primi Piatti
+          <li>Pasta</li>
+          <li>Pasta Fresca</li>
+          <li>Gnocchi</li>
+          <li>Riso e Cereali</li>
+        </ul>
+        <ul>Secondi Piatti
+          <li>Secondi Piatti</li>
+        </ul>
+        <ul>Piatti Unici
+          <li>Piatti Unici</li>
+        </ul>
+        <ul>Dolci
+          <li>Torte</li>
+          <li>Al cucchiaio</li>
+          <li>Biscotti</li>
+          <li>Gelati</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+    <div class="item"><a href="index.html"><img src="images/icon/home.png"></a></div>
+    <div class="item"><a href="plate.html"><img src="images/icon/plate.png"></a></div>
+    <div class="item"><a href="favorite.html"><img src="images/icon/favorite.png"></a></div>
+    <div class="item"><a href="buy.html"><img src="images/icon/buy.png"></a></div>
+    <div class="item"><a href="user.html"><img src="images/icon/user.png"></a></div>
+  </footer>
+</body>
+
+</html>
